@@ -1,0 +1,29 @@
+section{
+    display: flex;
+}
+.section .p1 {
+    flex:2;
+    background-color: blue;
+    font-size: 14px;
+}
+.section .p2 {
+    flex: 3;
+    order: 2;
+    background-color: blueviolet;
+    font-size: 14px;
+}
+.section .p3 {
+    flex: 1;
+    background-color: aquamarine;
+    font-size: 14px;
+}
+.section .p4 {
+    flex: 4;
+    background-color: brown;
+    font-size: 14px;
+}
+.section .p5 {
+    flex: 1;
+    background-color:chartreuse;
+    font-size: 14px;
+}
