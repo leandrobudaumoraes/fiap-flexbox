@@ -1,0 +1,31 @@
+.section.Text{
+font-size: 14px;
+color: gray;
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+}
+.section .p1{
+    flex: 1;
+    background-color: red;
+}
+.section .p2{
+flex: 2;
+background-color: green;
+order: 2;
+}
+.section .p3{
+    flex: 3;
+    background-color: black;
+    color: white;
+}
+.section .p4{
+    flex: 4;
+    background-color: brown;
+}
+.section .p5{
+    flex: 5;
+    background-color: chartreuse;
+}
