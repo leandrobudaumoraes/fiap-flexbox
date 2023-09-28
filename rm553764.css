@@ -1,0 +1,27 @@
+section {
+    display: flex;
+}
+
+
+.section p {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+
+.section .p1 { 
+background-color: rgb(124, 221, 221);
+flex:2;
+order: 2;}
+.section .p2 
+{background-color: rgb(152, 134, 201);
+flex:3;}
+.section .p3 
+{background-color: rgb(143, 89, 89);
+flex:1;}
+.section .p4 
+{background-color: rgb(105, 211, 96);
+flex:4;}
+.section .p5 
+{background-color: rgb(62, 56, 97);
+flex:5;}
+
