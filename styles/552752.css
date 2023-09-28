@@ -1,0 +1,40 @@
+.paragrafos{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.paragrafos > p{
+    font-size: 14px;
+    color: gray;
+}
+
+.paragrafos p:nth-child(1){
+    background-color: black;
+    flex: 2;
+    order: 2;
+}
+
+.paragrafos .p2 {
+    background-color: aqua;
+    flex: 3;
+    order: 3;
+}
+
+.paragrafos .p3 {
+    background-color: blue;
+    flex: 1;
+    order: 1;
+}
+
+.paragrafos .p4 {
+    background-color: red;
+    flex: 5;
+    order: 5;
+}
+
+.paragrafos .p5 {
+    background-color: darkgreen;
+    flex: 4;
+    order: 4;
+}
