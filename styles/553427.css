@@ -1,0 +1,36 @@
+.section p {
+    color:gray;
+    font-size: 14px;
+    flex: 1;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+}
+
+.section p:nth-child(1) {
+    flex: 2;
+    order: 2;
+    background-color:orange;
+}
+.section p:nth-child(2) {
+    flex: 3;
+    order: 3;
+    background-color: cadetblue;
+}
+.section .p3 {
+    flex: 1;
+    order: 1;
+    background-color: darkslategrey;
+}
+.section .p4 {
+    flex: 5;
+    order: 5;
+    background-color: darkolivegreen;
+}
+.section .p5 {
+    flex: 4;
+    order: 4;
+    background-color: bisque;
+}
