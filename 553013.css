@@ -1,0 +1,38 @@
+section {
+    display: flex;
+}
+
+.section > p {
+    font-size: 50px;
+    color: gray;
+}
+
+.section .p1{
+    flex: 2;
+    background-color: blue;
+    order: 2;
+}
+
+.section .p2 {
+    flex: 3;
+    background-color: orange;
+    order: 3;
+}
+
+.section .p3 {
+    flex: 1;
+    background-color: red;
+    order: 1;
+}
+
+.section .p4 {
+    flex: 5;
+    background-color: green;
+    order: 5;
+}
+
+.section .p5 {
+    flex: 4;
+    background-color: pink;
+    order: 4;
+}
