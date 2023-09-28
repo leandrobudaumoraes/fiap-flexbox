@@ -1,0 +1,36 @@
+.section{
+    display: flex;
+  
+  
+}
+
+.section > p {
+   font-size: 14px;
+    color: gray;
+    flex: 1;
+}
+.section .p1{
+    order: 2;
+    flex: 2;
+    background-color: rgba(255, 0, 0, 0.815);
+}
+.section .p2{
+    order: 3;
+    flex: 3;
+    background-color: rgb(226, 223, 43);
+}
+.section .p3{
+    order: 1;
+    flex: 1;
+    background-color: rgba(54, 255, 47, 0.829);
+}
+.section .p4{
+    order: 5;
+    flex: 5;
+    background-color: rgba(42, 81, 165, 0.877);
+}
+.section .p5{
+    order: 4;
+    flex: 4;
+    background-color: rgb(196, 74, 207);
+}
