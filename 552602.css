@@ -1,0 +1,40 @@
+.section{
+display: flex;
+flex-direction: row;
+}
+
+.section > p{
+    flex: 1;
+    font-size: 14px;
+    color: gray;
+}
+
+.section p:nth-child(1){
+    flex: 2;
+    order: 2;
+    background-color: red;
+}
+
+.section p:nth-child(2){
+    flex: 3;
+    order: 3;
+    background-color:orangered;
+}
+
+.section p:nth-child(3){
+    flex: 1;
+    order: 1;
+    background-color: yellow;
+}
+
+.section p:nth-child(4){
+    flex: 5;
+    order: 5;
+    background-color: greenyellow;
+}
+
+.section p:nth-child(5){
+    flex: 4;
+    order: 4;
+    background-color: aqua;
+}
