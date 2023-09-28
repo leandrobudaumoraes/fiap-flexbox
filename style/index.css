@@ -1,0 +1,41 @@
+body {
+    background-color: aliceblue;
+}
+.section {
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 1%;
+}
+
+.section p {
+    font-size: 16;
+    color: black;
+    font-weight: bold;
+}
+.section p:nth-child(1) {
+    order: 2;
+    background-color: aqua;
+    flex: 2;
+}
+.section p:nth-child(2) {
+    order: 3;
+    background-color: lightcoral;
+    flex: 3;
+}
+.section p:nth-child(3) {
+    order: 1;
+    background-color: lightgreen;
+    flex: 1;
+}
+.section p:nth-child(4) {
+    order: 5;
+    background-color: rebeccapurple;
+    flex: 5;
+}
+
+.section p:nth-child(5) {
+    order: 4;
+    background-color: palegoldenrod;
+    flex: 4;
+}
