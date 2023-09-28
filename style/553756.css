@@ -1,0 +1,51 @@
+section {
+    display: flex;
+   
+}
+section p {
+    flex: 1;
+    color: gray;
+    font-size: 14px;
+    border: 5px double purple ;
+    background-color: black;
+
+}
+.section .p1 {
+    flex: 2;
+    order: 2;
+    color: blue;
+    background-color: red;
+}
+.section .p2 {
+    flex: 3;
+    order: 3;
+    color: aqua;
+    background-color:brown;
+}
+
+.section .Meio {
+    color: red;
+    flex: 1; 
+    order: 1;
+    background-color:black;
+}
+
+.section .p4 {
+    flex: 5;
+    order: 5;
+    color: brown;
+    background-color:blue;
+
+}
+.section .p5 {
+    flex: 4;
+    order: 4;
+    color: slateblue;
+    background-color:orange;
+
+}
+
+h1 {
+    text-align: center;
+    border: 5px double black;
+}
