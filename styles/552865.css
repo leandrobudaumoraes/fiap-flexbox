@@ -1,0 +1,49 @@
+body {
+    font-size: 62.5%;
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.section > p{
+    font-size: 1.4em;
+    color:black;
+}
+
+.section .p1 {
+    flex: 2;
+    background-color: pink;
+    color: rgb(250, 77, 106);
+    order: 2;
+}
+
+.section .p2 {
+    flex: 3;
+    background-color: palevioletred;
+    color: rgb(168, 1, 57);
+    order: 3;
+}
+
+.section .p3 {
+    flex: 1;
+    background-color: plum;
+    color: rgb(156, 1, 156);
+    order: 1 ;
+}
+
+.section .p4 {
+    flex: 5;
+    background-color:violet;
+    color: rgb(121, 0, 121) ;
+    order: 5;
+}
+
+.section .p5 {
+    flex: 4;
+    background-color:lightpink;
+    color: rgb(233, 91, 112);
+    order: 4;
+}
